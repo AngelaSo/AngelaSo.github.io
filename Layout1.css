@@ -1,9 +1,22 @@
+.boxed {
+	background-color: #555555;
+	width: 100%;
+}
+
 .header {
 	color: #eeeeee;
 }
 
 .navHome {
 	color: #00aeef;
+}
+
+ul {
+	float: right;
+}
+li {
+	display: inline;
+	float: left;
 }
 
 .divider {
@@ -14,6 +27,3 @@ span {
 	color: #00aeef;
 }
 
-.boxed {
-	background-color: #000000;
-}
