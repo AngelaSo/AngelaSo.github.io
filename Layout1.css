@@ -1,29 +1,45 @@
-.boxed {
-	background-color: #555555;
-	width: 100%;
+* {
+	margin: 0px 0px 0px 0px;
 }
 
-.header {
+header {
+	background-color: #272c2f;
+	height: 135px;
+	position: relative;
+}
+
+header .title {
+	color: #eeeeee;
+	font-family: Arial;
+	line-height: 47px;
+	font-size: 40px;
+	margin-left: 80px;
+	float: left;
+	margin-top: 47px;
+}
+
+header .navBar {
+	color: #eeeeee;
+	line-height: 14px;
+	font-size: 18px;
+	float: right;
+	font-family: Arial;
+	margin-right: 80px;
+}
+
+header .navBar a {
+	text-decoration: none;
 	color: #eeeeee;
 }
 
-.navHome {
+header .navBar .active {
 	color: #00aeef;
-}
-
-ul {
-	float: right;
-}
-li {
-	display: inline;
-	float: left;
-}
-
-.divider {
-	color: #cccccc;
 }
 
 span {
 	color: #00aeef;
 }
 
+.navBar {
+	color: #eeeeee;
+}
