@@ -28,7 +28,7 @@ header .title {
 header .navBar {
 	color: #eeeeee;
 	line-height: 14px;
-	font-size: 18px;
+	font-size: 13px;
 	float: right;
 	font-family: 'Open Sans';
 	margin-right: 80px;
@@ -50,23 +50,20 @@ section {
 
 h1 {
 	color: #333333;
-	font-size: 60px;
+	font-size: 47px;
 	font-weight: 900;
 	font-family: 'Open Sans';
 	float: left;
-	line-height: 75px;
-	margin-top: 50px;
-	margin-bottom: 0px;
+	line-height: 61px;
+	padding-top: 64px;
 }
 
 h2 {
 	color: #bbbbbb;
 	float: left;
 	font-family: 'Open Sans';
-	font-size: 50px;
-	line-height: 40px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	font-size: 36pt;
+	line-height: 50px;
 }
 
 section span{
