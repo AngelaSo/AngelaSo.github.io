@@ -44,7 +44,7 @@ header .navBar .active {
 	color: #00aeef;
 }
 
-h1 {
+section .motto1 {
 	color: #333333;
 	font-size: 47px;
 	font-weight: 900;
@@ -56,7 +56,7 @@ h1 {
 	margin-right: 80px;
 }
 
-h2 {
+section .motto2 {
 	color: #bbbbbb;
 	float: left;
 	font-family: 'Open Sans';
@@ -72,4 +72,20 @@ h2 {
 
 section span{
 	color: #00aeef;
+}
+
+section .summary {
+	float: left;
+	font-family: 'Open Sans';
+	font-size: 22px;
+	line-height: 29px;
+	margin-left: 80px;
+	margin-right: 78px;
+	color: #555555;
+	padding-top: 34px;
+}
+
+section .summary span {
+	font-weight: 900;
+	color: #555555;
 }
