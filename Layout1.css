@@ -65,6 +65,9 @@ h2 {
 	margin-left: 70px;
 	margin-right: 80px;
 	padding-left: 10px;
+	padding-bottom: 40px;
+	border-bottom-style: dotted;
+	width: 960px;
 }
 
 section span{
