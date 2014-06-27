@@ -20,8 +20,8 @@ header .title {
 	font-family: 'Open Sans';
 	line-height: 47px;
 	font-size: 40px;
-	margin-left: 80px;
 	float: left;
+	margin-left: 80px;
 	margin-top: 47px;
 }
 
@@ -62,7 +62,7 @@ h2 {
 	color: #bbbbbb;
 	float: left;
 	font-family: 'Open Sans';
-	font-size: 36pt;
+	font-size: 37px;
 	line-height: 50px;
 }
 
