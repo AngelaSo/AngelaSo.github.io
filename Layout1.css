@@ -67,6 +67,7 @@ section .motto2 {
 	padding-left: 10px;
 	padding-bottom: 40px;
 	width: 960px;
+	border-bottom-style: dotted;
 }
 
 section span{
@@ -85,6 +86,8 @@ section .summary {
 	padding-top: 34px;
 	padding-bottom: 40px;
 	width: 960px;
+	border-bottom-style: dotted;
+	border-bottom-color: #bbbbbb;
 }
 
 section .summary span {
