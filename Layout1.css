@@ -101,23 +101,45 @@ section .services {
 	margin-right: 80px;
 }
 
+table {
+	position: relative;
+}
+
 thead {
 	font-size: 30px;
 }
 
 tbody {
-	font-size: 10px;
+	font-size: 14px;
 }
 
 .tableHead td {
+	padding-top: 24px;
+	padding-bottom: 12px;
+}
+
+.tableHead td span {
+	color: white;
+	margin: 0px 0px 0px -5px;
 	border-bottom-style: dotted;
+}
+
+.tableContent td {
+	padding-top: 27px;
+	padding-left: 33px;
+	padding-right: 33px;
+	padding-bottom: 30px;
 }
 
 .buttons {
 	background-color: #0076a3;
 }
 
-
+.buttons td {
+	padding-top: 13px;
+	padding-bottom: 13px;
+	margin: 0px -10px 0px -10px;
+}
 
 
 
