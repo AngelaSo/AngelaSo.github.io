@@ -94,7 +94,7 @@ section .summary span {
 section .services {
 	float: left;
 	text-align: center;
-	color: black;
+	color: white;
 	margin-top: 40px;
 	margin-left: 80px;
 	margin-right: 80px;
