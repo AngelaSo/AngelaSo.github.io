@@ -109,6 +109,10 @@ tbody {
 	font-size: 10px;
 }
 
+.tableHead td {
+	border-bottom-style: dotted;
+}
+
 .buttons {
 	background-color: #0076a3;
 }
