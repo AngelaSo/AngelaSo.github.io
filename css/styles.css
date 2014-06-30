@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -36,53 +36,59 @@ header nav a:last-child::after {
 	display: none;
 }
 
-section {
+main {
 	width: 960px;
 	margin: 0 auto;
 	padding-top: 35px;
 }
-section .title {
-	padding: 35px 15px;
+main .title {
+	padding: 35px 10px;
 }
-section .title h2 {
+main .title h2 {
 	color: #333333;
 	font-size: 47px;
 	font-weight: 900;
 	margin: 0;
 }
-section .title h3 {
+main .title h3 {
 	color: #bbbbbb;
 	font-size: 37px;
 	margin: 0;
 }
-section .title h2 span {
+main .title h2 span {
 	color: #00aeef;
 }
 
-section .summary {
+main .summary {
 	font-size: 22px;
 	color: #555555;
-	padding: 25px 15px;
+	padding: 25px 10px;
 	border-bottom: 3px dotted #bbb;
 	border-top: 3px dotted #bbb;
 }
 
-section .service {
+main .service {
 	display: inline-block;
-	width: 240px;
+	width: 245px;
 	color: white;
 	background-color: #00aeef;
-	padding: 30px;
+	padding: 25px 30px;
 	font-size: 14px;
-	line-height: 1.75em
-}
-section .service h3 {
-	font-size: 36px;
-	margin: 0;
-	padding-bottom: 1em;
-	border-bottom: 2px dotted white;
+	line-height: 1.75em;
 	text-align: center;
+	margin-left: 10px;
+	margin-top: 40px;
 }
-section .service button {
-	background-color: #0076a3
+main .service h3 {
+	font-size: 36px;
+	margin: 0px;	
+	padding-bottom: 20px;
+	border-bottom: 2px dotted white;
+}
+main .service button {
+	background-color: #0076a3;
+	border: 1px solid #15607c;
+	color: white;
+	width: 230px;
+	padding: 15px 0px;
 }
