@@ -11,36 +11,35 @@
 }
 
 header {
-	background-color: #272c2f;
-	height: 135px;
 	position: relative;
-}
-
-header .title {
 	color: #eeeeee;
-	line-height: 47px;
-	font-size: 40px;
+	background-color: #272c2f;
+	text-align: right;
+}
+header h1 {
 	float: left;
+	font-size: 40px;
 	margin-left: 80px;
-	margin-top: 47px;
+	margin-top: 30px;
 }
-
-header .navBar {
-	color: #eeeeee;
-	line-height: 14px;
+header nav {
 	font-size: 13px;
-	float: right;
-	margin-right: 80px;
-	margin-top: 69px;
+	padding: 50px 80px 50px 40px;
 }
-
-header .navBar a {
+header nav a {
 	text-decoration: none;
 	color: #eeeeee;
 }
-
-header .navBar .active {
+header nav .active {
 	color: #00aeef;
+}
+header nav a:after {
+	content: '--';
+	margin: 0 0.75em;
+	color: white;
+}
+header nav a:last-child::after {
+	display: none;
 }
 
 section .motto1 {
