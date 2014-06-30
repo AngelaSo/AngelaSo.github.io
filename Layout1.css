@@ -91,7 +91,7 @@ section .summary span {
 	color: #555555;
 }
 
-section .services {
+/*section .services {
 	float: left;
 	text-align: center;
 	color: white;
@@ -145,9 +145,36 @@ tbody {
 	background-color: #0076a3;
 	padding-top: 15px;
 	padding-bottom: 15px;
+} */
+
+.service1 {
+	float: left;
+	background-color: #00aeef;
+	margin-left: 80px;
+	color: white;
+	margin-right: 720px;
+	text-align: center;
+	margin-top: 40px;
 }
 
+.service1Head {
+	font-size: 36px;
+}
 
+.service1Content td {
+	font-size: 14px;
+	padding-top: 30px;
+}
+
+.service2 {
+	background-color: #00aeef;
+	margin-left: 720px;
+	color: white;
+	margin-right: 80px;
+	text-align: center;
+	margin-top: 40px;
+	float: left;
+}
 
 
 
