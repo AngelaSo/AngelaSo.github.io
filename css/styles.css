@@ -108,10 +108,19 @@ main .misc {
 	display: inline-block;
 }
 main .testimonial {
-	width: 475px;
-}
-main .testimonial .text {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 450px;
 	font-size: 14px;
+}
+main .testimonial figure {
+	float: left;
+}
+main .testimonial p {
+
+}
+main .speaker {
+
 }
 main .website {
 	text-decoration: none;
@@ -122,6 +131,7 @@ main h5 {
 }
 main .featured {
 	width: 475px;
+	height: 85px;
 }
 main .featured h6 {
 	font-size: 20px;
@@ -130,7 +140,7 @@ main .featured h6 {
 main .testimonial figure {
 	width: 80px;
 	height: 80px;
-	background-color: #CCCCCC; 
+	background-color: #CCCCCC;
 }
 main .featured a {
 	text-decoration: none;
