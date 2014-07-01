@@ -104,24 +104,28 @@ main .service button:after {
 main #additional-info {
 	color: #555555;
 }
+main .misc {
+	display: inline-block;
+}
 main .testimonial {
-	width: 480px;
+	width: 475px;
 }
 main .testimonial .text {
-	display: inline-block;
 	font-size: 14px;
 }
 main .website {
 	text-decoration: none;
-}
-main .featured {
-	width: 480px;
+	color: #00aeef;
 }
 main h5 {
 	font-size: 22px;
 }
+main .featured {
+	width: 475px;
+}
 main .featured h6 {
 	font-size: 20px;
+	display: inline-block;
 }
 main .testimonial figure {
 	width: 80px;
