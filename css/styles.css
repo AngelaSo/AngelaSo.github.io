@@ -92,6 +92,9 @@ main .service h3 {
 	padding-bottom: 20px;
 	border-bottom: 2px dotted white;
 }
+main .service p {
+	margin-top: 15px;
+}
 main .service button {
 	background-color: #0076a3;
 	border: 1px solid #15607c;
@@ -107,14 +110,19 @@ main .service button:after {
 /* Additional Section CSS */
 main #additional-info {
 	color: #555555;
+	margin-top: 40px;
+	padding-top: 40px;
+	border-top: dotted #CCCCCC;
+	border-bottom: dotted #CCCCCC;
 }
 main .info-section {
 	float: left;
 	width: 50%;
+	padding-left: 10px;
 }
 main .testimonial {
 	margin-bottom: 40px;
-	width: 450px;
+	width: 445px;
 	font-size: 14px;
 }
 main .testimonial figure {
@@ -127,9 +135,6 @@ main .testimonial .description {
 }
 main .testimonial .description p {
 	margin-top: -3px;
-}
-main .speaker {
-
 }
 main .website {
 	text-decoration: none;
