@@ -72,15 +72,19 @@ main .summary {
 /* Service Boxes CSS */
 main .service {
 	display: inline-block;
-	width: 245px;
+	vertical-align: top;
+	width: 300px;
 	color: white;
 	background-color: #00aeef;
 	padding: 25px 30px;
 	font-size: 14px;
 	line-height: 1.75em;
 	text-align: center;
-	margin-left: 10px;
+	margin-left: 8px;
+	margin-right: 8px;
 	margin-top: 40px;
+	box-shadow: 5px 5px 5px #aaaaaa;
+	min-height: 340px;
 }
 main .service h3 {
 	font-size: 36px;
@@ -97,27 +101,32 @@ main .service button {
 }
 main .service button:after {
 	content: ">>";
-	margin: 0 0.25em;
+	margin-left: 0.5em;
 }
 
 /* Additional Section CSS */
 main #additional-info {
 	color: #555555;
 }
-main .misc {
-	display: inline-block;
+main .info-section {
+	float: left;
+	width: 50%;
 }
 main .testimonial {
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-bottom: 40px;
 	width: 450px;
 	font-size: 14px;
 }
 main .testimonial figure {
 	float: left;
+	margin-right: 30px;
 }
-main .testimonial p {
-
+main .testimonial .description {
+	display: block;
+	overflow: hidden;
+}
+main .testimonial .description p {
+	margin-top: -3px;
 }
 main .speaker {
 
@@ -128,10 +137,6 @@ main .website {
 }
 main h5 {
 	font-size: 22px;
-}
-main .featured {
-	width: 475px;
-	height: 85px;
 }
 main .featured h6 {
 	font-size: 20px;
@@ -149,3 +154,18 @@ main .featured a:after {
 	content: ">>";
 	margin: 0 0.25em;
 }
+
+
+.clearfix { display: inline-block; }
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
