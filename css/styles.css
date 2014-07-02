@@ -76,9 +76,9 @@ main .service {
 	width: 300px;
 	color: white;
 	background-color: #00aeef;
-	padding: 25px 30px;
-	font-size: 14px;
-	line-height: 1.75em;
+	padding: 30px 30px;
+	font-size: 13px;
+	line-height: 2em;
 	text-align: center;
 	margin-left: 8px;
 	margin-right: 8px;
@@ -89,11 +89,12 @@ main .service {
 main .service h3 {
 	font-size: 36px;
 	margin: 0px;	
-	padding-bottom: 20px;
+	padding-bottom: 25px;
 	border-bottom: 2px dotted white;
 }
 main .service p {
-	margin-top: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 main .service button {
 	background-color: #0076a3;
@@ -101,6 +102,7 @@ main .service button {
 	color: white;
 	width: 230px;
 	padding: 15px 0px;
+	margin-top:;
 }
 main .service button:after {
 	content: ">>";
@@ -130,7 +132,7 @@ main .testimonials {
 main .testimonial {
 	margin-bottom: 40px;
 	width: 445px;
-	font-size: 14px;
+	font-size: 13px;
 }
 main .testimonial figure {
 	float: left;
@@ -172,7 +174,7 @@ main .featured img {
 main .featured p {
 	width: 430px;
 	padding-bottom: 15px;
-	font-size: 14px;
+	font-size: 13px;
 
 }
 main .featured a {
