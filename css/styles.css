@@ -114,6 +114,7 @@ main #additional-info {
 	padding-top: 40px;
 	border-top: dotted #CCCCCC;
 	border-bottom: dotted #CCCCCC;
+	padding-bottom: 30px;
 }
 main .info-section {
 	float: left;
@@ -152,12 +153,14 @@ main .website {
 	color: #00aeef;
 }
 main .featured {
-	padding-left: 20px;
+	padding-left: 25px;
+	border-left: dotted #CCCCCC;
 }
 main .featured h6 {
 	font-size: 20px;
 	display: inline-block;
 	color: #CCCCCC;
+	padding-top: 25px;
 }
 main .featured img {
 	width: 430px;
