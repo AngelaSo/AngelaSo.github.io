@@ -112,10 +112,9 @@ main #additional-info {
 	color: #555555;
 	margin-top: 40px;
 	padding-top: 40px;
-	padding-bottom: 40px;
 	border-top: dotted #CCCCCC;
 	border-bottom: dotted #CCCCCC;
-
+	padding-bottom: 20px;
 }
 main .info-section {
 	float: left;
@@ -147,7 +146,8 @@ main .testimonial .description {
 main .testimonial .description p {
 	margin-top: -3px;
 }
-main .testimonial .description cite {
+main .speaker {
+	padding-top: 15px;
 }
 main .website {
 	text-decoration: none;
@@ -161,7 +161,7 @@ main .featured h6 {
 	font-size: 20px;
 	display: inline-block;
 	color: #CCCCCC;
-	padding-top: 25px;
+	padding-top: 20px;
 }
 main .featured img {
 	width: 430px;
@@ -172,6 +172,7 @@ main .featured img {
 main .featured p {
 	width: 430px;
 	padding-bottom: 15px;
+	font-size: 14px;
 
 }
 main .featured a {
