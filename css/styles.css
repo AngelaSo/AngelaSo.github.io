@@ -112,9 +112,10 @@ main #additional-info {
 	color: #555555;
 	margin-top: 40px;
 	padding-top: 40px;
+	padding-bottom: 40px;
 	border-top: dotted #CCCCCC;
 	border-bottom: dotted #CCCCCC;
-	padding-bottom: 30px;
+
 }
 main .info-section {
 	float: left;
@@ -166,7 +167,7 @@ main .featured img {
 	width: 430px;
 	height: 205px;
 	margin: 15px 0px;
-	box-shadow: ;
+	box-shadow: 5px 5px 5px #aaaaaa;
 }
 main .featured p {
 	width: 430px;
@@ -182,7 +183,18 @@ main .featured a:after {
 	margin: 0 0.25em;
 }
 
+/* Footer CSS */
+main footer {
+	margin-left: 10px;
+	margin-top: 35px;
+	color: #9B9B9B;
+}
+main footer span:after{
+	content: "~";
+	margin: 0 0.25em;
+}
 
+/* Personal CSS END */
 .clearfix { display: inline-block; }
 .clearfix:after {
 	visibility: hidden;
